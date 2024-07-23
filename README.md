@@ -1,11 +1,13 @@
 # weather_app_flutter
 
-A new Flutter module project.
+## Required Permissions
 
-## Getting Started
+To ensure the proper functioning of this application, you need to add the following permissions to your `AndroidManifest.xml` file. These permissions are necessary for accessing the device's location services.
 
-For help getting started with Flutter development, view the online
-[documentation](https://flutter.dev/).
+### Permissions to Add
 
-For instructions integrating Flutter modules to your existing applications,
-see the [add-to-app documentation](https://flutter.dev/docs/development/add-to-app).
+```xml
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
